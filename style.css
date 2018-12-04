@@ -1,0 +1,47 @@
+body {
+    background-image:"light-grey-terrazzo.png";
+    margin:0;
+    background-color: white;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+#header {
+    top: 0;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display:block;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: solid lightgrey 1px
+}
+
+ul{
+    list-style-type: none;
+    float:right;
+    display: block;
+    color: grey;
+    text-align: center
+}
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: grey;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#4aaaa5;
+    opacity: 0.8;
+}
+
