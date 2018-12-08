@@ -1,14 +1,32 @@
-body {
-    background-image:"light-grey-terrazzo.png";
-    margin:0;
-    background-color: white;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+* {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
 }
+
+body {
+    background-color: #2d0d30;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('walk.gif')
+  }
+
+.content { 
+    background-color: #b93e909c;
+    border-radius: 10px;
+}
+
+.audio {
+    float: left;
+    margin-top: 100%;
+}
+
 #header {
     top: 0;
     position: fixed;
@@ -17,31 +35,221 @@ body {
     width: 100%;
     display:block;
     overflow: hidden;
-    background-color: white;
-    border-bottom: solid lightgrey 1px
+    background-color:transparent;
+    border-bottom: none;
 }
 
-ul{
+.headername {
+    float: left;
+    color: white;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.headername a {
+    display:block;
+    text-decoration: none;
+    color: white;
+}
+.headername a:hover {
+    color: #8acfd4;
+}
+#menu {
     list-style-type: none;
     float:right;
     display: block;
-    color: grey;
+    color: white;
     text-align: center
 }
+
+ul:first-child{
+    display: flex;
+    justify-content: start;
+}
+
 li {
     float: right;
 }
 
 li a {
     display: inline-block;
-    color: grey;
+    color: white;
     text-align: center;
     padding: 30px 20px;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 li a:hover {
-    background-color:#4aaaa5;
-    opacity: 0.8;
+    background-color:#2899a1;
+    opacity: 0.9;
+    border-radius: 30px;
 }
 
+#image {
+    position: relative;
+    margin: 40px 50px 100px 50px;
+    border: solid 10px white;
+    z-index: 1;
+}
+#image:hover {
+    background-image: url('binarycode.png');
+}
+
+.content {
+    margin: 90px 75px 90% 60px; 
+    float: right; 
+}
+
+.FD {
+    font-family: 'VT323', monospace;
+    background: white;
+    float: right;
+    border-radius: 20px; 
+    position: relative;
+    padding: 10px;
+}
+.gallery {
+    margin-top: 220px;
+    height: 400px;
+    width: 600px;
+}
+
+.dolphin {
+    float:left;
+}
+
+.code {
+    float: left;
+}
+
+.audio {
+    float:left;
+    margin-top: 0%;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    opacity: 0.9;
+    bottom: 0;
+    position: fixed;
+    margin: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    display:block;
+    overflow: hidden;
+    border-bottom: none;
+    height: 20px;
+}
+
+
+.wd {
+    color:rgb(165, 160, 160);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    top: 450px;
+    right: 62px;
+    z-index: 3;
+    font-size: 120%;
+}
+
+.wd:hover {
+    display: block;
+    background-color: #2d0d30;
+}
+
+.line1 {
+    position: relative;
+    color: rgb(182, 179, 179);
+    right: 140px;
+    top:120px;
+    z-index: 2;
+    font-size: 400%;
+    z-index:4;
+}
+
+.line:hover {
+ display: block;
+ background-color: palevioletred;
+}
+
+
+.port {
+    font-family: 'VT323', monospace;
+    background: white;
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+#contact {
+    font-family: 'VT323', monospace;
+    background: white;
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+#aboutme {
+    font-family: 'VT323', monospace;
+    background: white;
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+
+.hangman {
+    float:left;
+    margin: 20px;
+}  
+
+.hangman:hover {
+    opacity: 0.3;
+
+}
+
+.rpg {
+    float:left;
+    margin: 20px;
+}
+
+.rpg:hover {
+    opacity: 0.3;
+}
+
+
+.trivia {
+    float:left;
+    margin:20px;
+    
+}
+
+.trivia:hover {
+    opacity: 0.3;
+}
+
+.widget {
+    float:left;
+    margin:20px;
+}
+
+.widget:hover {
+    opacity: 0.3;
+
+}
+
+
+.rock {
+    float: left;
+    margin:20px;
+}
+
+.rock:hover {
+    opacity: 0.3;
+
+}
+
+.fig1 {
+    background-color: black;
+    color: white; 
+    
+}
